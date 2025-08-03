@@ -4,7 +4,7 @@ import numpy as np
 
 # Load model and feature list
 model = joblib.load("model.pkl")
-features_list = joblib.load(r"C:\Users\rdhan\Desktop\emp_attrition\features.pkl")  # Must match model
+features_list = joblib.load("features.pkl")
 
 st.set_page_config(page_title="Employee Attrition Predictor", layout="centered")
 
